@@ -1,0 +1,12 @@
+def commonStr(str1, str2):
+    i = 0
+
+    while(i<3):
+        print(str1[i])
+        j=0
+        while(j<3):
+            print(str2[j])
+            j=j+1
+        i=i+1
+
+commonStr('say', 'guy')
